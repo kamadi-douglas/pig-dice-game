@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Erica+One|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <h1>Pig Dice Game</h1>
+    <marquee behavior="correspond" hspace="">
+    <p>LET'S DO GAMING, LET'S HAVE FUN....WOW!!!</p>
+    </marquee>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#game hub">Game hub</a>
+        <a href="#rate us">Rate us</a>
+        <a href="#more">More</a>
+      </div>
+      <audio loop>
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="player-col col-md-4">
+          <h2>Player 1</h2>
+          <hr>
+
+          <div id="player-one-buttons">
+            <button type="submit" class="btn" name="button" id="player-one-roll">THROW</button>
+            <button type="submit" class="btn" name="button" id="player-one-stay">HOLD</button>
+          </div>
+          <h3>Turn Running Total</h3>
+          <div id="player-one-running">
+          </div>
+          <h3>Total Score:</h3>
+          <h4><span id="player-one-score"></span></h4>
+        </div>
+        <div class="col-md-4">
+          <p><span class="player-one-rolls-one">You've thrown 1!</p>
+          <p><span class="player-one-rolls-one">Your turn is over.</span></p>
+          <div id="winner">
+          </div>
+        </div>
+        <div class="player-col col-md-4">
+          <h2>Player 2</h2>
+          <hr>
+          <div id="player-two-buttons">
+            <button type="submit" class="btn" name="button" id="player-two-roll">THROW</button>
+            <button type="submit" class="btn" name="button" id="player-two-stay">HOLD</button>
+          </div>
+          <h3>Turn Running Total</h3>
+          <div id="player-two-running">
+          </div>
+          <h3>Total Score:</h3>
+          <h4><span id="player-two-score"></span></h4>
+          <div class="audio">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
