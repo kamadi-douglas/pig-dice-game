@@ -14,18 +14,18 @@
 * Bootstrap
 * Git
 # Behaviour Driven Development(BDD)
-  Behaviour                                                               |	    Input	       |         Output
-------------------------------------------------------------------------- |------------------|----------------------------------------------------
+  Behaviour                                                               |	    Input	       |   Output
+
 Player rolls die to get a random number                                   |	Click button     |     5
---------------------------------------------------------------------------|------------------|----------------------------------------------------
+
 When player rolls 1, turn is over and lose all current points from turn   |   1	             | Hide player's buttons, show other player's buttons
---------------------------------------------------------------------------|------------------|----------------------------------------------------
+
 When player rolls any other number add to turn total                      |	3                |	3
---------------------------------------------------------------------------|------------------|----------------------------------------------------
+
 Player can end turn by "staying", and turn total is added to banked total |	12               |	27
---------------------------------------------------------------------------|------------------|----------------------------------------------------
+
 First player to reach 100, wins                                           |	9	               | 100 - You win!
---------------------------------------------------------------------------|------------------|----------------------------------------------------
+
 
 # Known Bugs
 ### There's is still alot to be done to improve the quality of this application. You can all contribute to it
