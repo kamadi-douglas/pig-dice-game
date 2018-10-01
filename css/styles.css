@@ -1,13 +1,16 @@
 
 body {
   text-align: center;
-  background-color: #dadada;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3x2Q1479y8twAsaJBtqWIeJVW8L_HUOUsRpG5c3P1RDhbWnnW");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 45px;
+  color: #ddd;
 }
 
 h2 {
